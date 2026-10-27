@@ -12,4 +12,4 @@ plugins {
 
 rootProject.name = "warpstones"
 
-include("core")
+include("core", "platform:common", "platform:forge", "platform:neoforge", "platform:fabric")

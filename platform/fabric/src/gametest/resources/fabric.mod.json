@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "warpstones-gametest",
+  "version": "0",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-gametest": ["dev.warpstones.fabric.gametest.FabricBootTests"]
+  },
+  "depends": {
+    "warpstones": "*"
+  }
+}

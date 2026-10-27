@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "warpstones",
+  "version": "${version}",
+  "name": "Warpstones",
+  "description": "Teleport between waystones.",
+  "authors": ["Andrew-McCall"],
+  "license": "All Rights Reserved",
+  "environment": "*",
+  "depends": {
+    "fabricloader": ">=${fabric_loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}",
+    "java": ">=17"
+  }
+}
